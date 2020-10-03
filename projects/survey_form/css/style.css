@@ -1,0 +1,112 @@
+html {
+    font-size: 10px;
+    font-family: 'Fira Sans', sans-serif, Arial, Helvetica;
+    color: white;
+}
+
+body {
+    margin: 0;
+    background: #06003b;
+    background-image: url(https://i.postimg.cc/Kj4W5nWH/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100vw auto;
+}
+
+.coloroverlay {
+    background: linear-gradient(315deg, #000000bb 0%, #577ca7bb 50%,  #000546ab 100%);
+    background-size: 400% 400%;
+    background-position: 400%;
+    animation: gradient 20s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0%;
+    }
+    50% {
+        background-position: 100%;
+    }
+    100% {
+        background-position: 0%;
+    }
+}
+
+header, .mainsurvey {
+    max-width: 55vw;
+    padding: 35px 20px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.mainsurvey {
+    background-color: rgba(10, 9, 75, 0.788);
+    border-radius: 5px;
+}
+
+.divsurvey {
+    padding: 5px 20px; 
+    font-size: 1.9rem;
+}
+
+.formtxt {
+    display: block;
+    width: calc(100% - 10px);
+    border: 0;
+    outline: 1px solid black;
+    margin: 8px 0px;
+    padding: 8px 5px; 
+}
+
+.formselect {
+    display: block;
+    width: 100%;
+    border: 0;
+    outline: 1px solid black;
+    margin: 8px 0px;
+    padding: 8px 5px; 
+}
+
+textarea {
+    resize: none;
+}
+
+.button {
+    background-color: white;
+    text-align: center;
+    padding: 10px 5px;
+    width: 100%;
+    margin-top: 15px;
+    font-size: 1.9rem;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+fieldset {
+    margin: 0;
+    border: 1px solid rgba(255, 255, 255, 0.247);
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        background-size: auto 100vh;
+    }
+
+    header, .mainsurvey {
+        max-width: 80vw;
+    }
+    
+}

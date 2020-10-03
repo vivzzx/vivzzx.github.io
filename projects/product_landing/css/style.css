@@ -1,0 +1,300 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif, Arial, Helvetica;
+}
+
+header {
+    box-sizing: border-box;
+    position: fixed;
+    display: flex;
+    margin: 0;
+    background-color: #ffffff;
+    min-height: 75px;
+    padding: 0 20px;
+    align-items: center;
+    top: 0;
+    z-index: 2;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    width: 35vw;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.38rem;
+    font-weight: 500;
+    color: #000000;
+    transition-duration: 0.4s;
+}
+
+.logo {
+    width: 60vw;
+}
+
+.structure {
+    margin: 0 auto;
+    width: 80vw;
+    font-size: 1.35rem;
+}
+
+.bg-overlay {
+    background-image: url(https://i.postimg.cc/VNZBNpY0/alex-holyoake-w-l-ECFMw6-MI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100vw auto;
+    background-position: center center;
+    min-height: 300px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.container-start, .subemail {
+    text-align: center;
+    font-size: 1.6rem;
+    z-index: 1;
+    color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.layer {
+    background-color: #24242470;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.container-start {
+    padding-top: 40px;
+}
+
+.subemail input[type="email"] {
+    padding: 5px;
+    max-width: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+
+.container-features {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 30px 0;
+    align-content: center;
+}
+.features-box{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.features-desc {
+    margin-left: 15px;
+    line-height: 1.5;
+    font-size: 1.4rem;
+}
+
+.icon {
+    color: #f1c40f;
+    font-size: 40px;
+}
+
+.container-pricing {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.pricing {
+    border: 1px solid #242424;
+    border-radius: 3px;
+    box-sizing: border-box;
+    width: 32%;
+    margin: 10px 0;
+}
+
+.pricing_title {
+    background-color: #dadada;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 15px;
+}
+
+.main-list li {
+    list-style-type: none;
+}
+
+.main-list2,
+.main-list  {
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+}
+
+
+.button1 {
+    background-color: #f1c40f;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    transition-duration: 0.5s;
+}
+
+.button2 {
+    background-color: #f1c40f;
+    padding: 12px 30px;
+    margin: 25px 10px 15px 10px;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    border: none;
+}
+
+.videobox {
+    margin: 5px 0 20px 0;
+    padding: 0;
+    text-align: center;
+    max-width: 100%;
+}
+
+#video {
+    width: 560px;
+    height: 315px;
+}
+
+footer {
+    background-color: #dadada;
+    padding: 20px 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 80vw;
+    box-sizing: border-box;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    width: 35vw;
+    justify-content: flex-end;
+    
+}
+
+footer p {
+    display: flex;
+    width: 45vw;
+    justify-content: flex-end;
+}
+
+footer li {
+    margin-left: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: 400;
+    color: #000000;
+    font-size: 1.32rem;
+}
+
+/* hover */
+
+nav a:hover {
+    color: #e9760a;
+}
+
+.button1:hover {
+    background-color: #e9760a;
+}
+
+footer a:hover {
+    color: #e9760a;
+}
+
+
+/* media query */
+
+@media screen and (max-width: 800px) {
+
+    .container-pricing {
+        flex-wrap: wrap;
+        width: 300px;
+        margin: 20px auto;
+    }
+
+    .pricing {
+        width: 100%;
+    }
+
+    .container-start {
+        margin-top: 15px;
+    }
+
+    #video {
+        width: 80vw;
+    }
+}
+
+@media (max-width: 600px) {
+
+    header {
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .logo {
+        width: 100vw;
+    }
+
+    #header-img {
+        width: 75vw;
+    }
+
+    nav ul {
+        width: 100vw;
+    }
+
+    .pricing {
+        width: 95%;
+    }
+
+    .structure, footer {
+        width: 90vw;
+    }
+
+    .bg-overlay {   
+        background-size: auto 100vh;
+    }
+
+    .container-start {
+        margin-top: 35px;
+    }
+
+    #video {
+        width: 90vw;
+    }
+}
+
