@@ -1,0 +1,111 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    background: #ECE9E6;  /* fallback for old browsers */
+    background-image: url(https://2.bp.blogspot.com/-BI6Dr4Tzn68/T6XNpEEwrkI/AAAAAAAAFnY/d_7uhAlMCWY/s1600/AmyWinehouse-universoPNG.png);
+    /*    background-image: url(../img/amy.png);*/
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    background-color: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  
+    background-color: linear-gradient(to right, #FFFFFF, #ECE9E6);
+    background-color: -moz-linear-gradient(right, #FFFFFF 0%, #ECE9E6 100%); 
+    background-attachment: fixed;
+    background-size: auto 100vh;
+    font-size: 1.6rem;
+    font-family: 'Pontano Sans', Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    margin: 2%;
+}
+
+#main {
+    margin: 0px 8px;
+    padding: 20px;
+    max-width: 60vw;
+}
+
+header {
+    max-width: 60vw;
+    text-align: center;
+    margin: 0 8px;
+    padding: 5px 20px;
+}
+
+img {               
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#img-div {
+    padding: 30px 30px 10px 30px;
+    margin: 0 auto;
+    background-color: #d3d3d3f1;
+}
+
+#img-caption {
+    padding: 10px 5px 5px 5px;
+}
+
+h1 {
+    font-family: 'Prata', Arial, Helvetica, sans-serif;
+    font-size: 5vw;
+    margin: 0;   
+}
+
+h3 {
+    text-align: center;
+}
+
+#tribute-info {
+    padding: 10px 40px 5px 40px;
+    margin: 10px 0 5px 0;
+}
+
+blockquote {
+    background-color: #d6d6d6;
+    font-style: italic;
+    max-width: 600px;
+    text-align: left;
+    padding: 15px;
+    font-size: 1.1em;
+    margin: 0 auto 20px auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 1.15em;
+}
+
+
+@media screen and (max-width: 992px) {
+    header, #main {
+        background-color: #ffffffd3;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    header, #main {
+        background-color: #ffffffd3;
+        max-width: 80vw;
+        margin: 0 auto;
+    }
+
+    blockquote {
+        font-size: 0.9em;
+    }
+
+    #tribute-info {
+        padding: 20px;
+    }
+}
+
+a {
+    color: cornflowerblue;
+}
+
+a:visited {
+    color: rgb(170, 47, 139);
+}
