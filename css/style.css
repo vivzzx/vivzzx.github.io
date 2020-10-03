@@ -142,8 +142,6 @@ h2 {
     padding-left: 0;
 }
 
-
-
 .profile-link {
     text-decoration: none;
     display: flex;
@@ -293,14 +291,13 @@ footer p {
 
     #welcome-section p {
         font-size: 1.5rem;
-        }
+        
     }
 }
 
-
 @media (max-width: 415px) {
     h1 {
-        font-size: 4.3rem;
+        font-size: 3.9rem;
     }
     h2 {
         font-size: 2.2rem;
