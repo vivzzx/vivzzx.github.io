@@ -1,7 +1,7 @@
 <h1 align="center">Hello World 👋, I'm Viv</h1>
 <h3 align="center">A passionate frontend developer from Brazil</h3>
 
-- 🔭 I’m currently studying at [Codecademy](https://www.codecademy.com/profiles/vivyDeo9771985642)
+- 🔭 I’m currently studying at [Codecademy](https://www.codecademy.com/profiles/vivzzx)
 
 - 🌱 I’m currently learning **React**
 
